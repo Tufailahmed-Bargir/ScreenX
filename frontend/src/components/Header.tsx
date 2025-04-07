@@ -6,7 +6,7 @@ const Header = () => {
     <header className="w-full py-4 px-6 flex items-center justify-between border-b">
       <div className="flex items-center space-x-2">
         <h1 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-brand-pink to-brand-purple">
-          Tweet Screenshot Generator
+           sreenX
         </h1>
       </div>
       

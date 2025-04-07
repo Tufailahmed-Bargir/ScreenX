@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useToast } from "@/components/ui/use-toast";
 import { ArrowRight, Upload } from "lucide-react";
-import { log } from "console";
+ 
 import useTweetScreenshot from "@/hooks/generate";
 
 interface TweetFormProps {

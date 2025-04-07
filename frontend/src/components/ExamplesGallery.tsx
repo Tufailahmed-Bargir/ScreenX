@@ -51,13 +51,13 @@ const ExamplesGallery = () => {
                     className="overflow-hidden feature-card border-none cursor-pointer"
                   >
                     <div 
-                      className="h-48 w-full flex items-center justify-center" 
+                      className="h-60 w-full flex items-center justify-center" 
                       style={{ backgroundColor: example.bgColor }}
                     >
                       <img 
-                        src={example.imageUrl} 
+                        src={'http://localhost:3000/tweet_screen/img1.png'} 
                         alt={`Example ${example.id}`} 
-                        className="h-32 w-32 object-contain"
+                        className="h-30 w-full  p-2 rounded-3xl "
                       />
                     </div>
                   </Card>
