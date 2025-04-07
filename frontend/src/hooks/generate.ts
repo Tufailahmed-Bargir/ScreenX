@@ -11,13 +11,14 @@ const useTweetScreenshot = () => {
     setError(null);
     setImageUrl(null);
 
+    const backend_url = 'https://lexi-backend-production-f1da.up.railway.app'
     try {
-      const res = await axios.post("http://localhost:3000/generate-screenshot", {
+      const res = await axios.post(`${backend_url}/generate-screenshot`, {
         url: tweetUrl,
       });
 
       if (res.data.success) {
-        setImageUrl(`http://localhost:3000${res.data.imageUrl}`);
+        setImageUrl(`${backend_url}${res.data.imageUrl}`);
       } else {
         setError(res.data.error || "Unknown error occurred.");
       }
