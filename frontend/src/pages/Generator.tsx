@@ -124,7 +124,7 @@ const Generator = () => {
     <div className="py-12 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-10">
-          <h2 className="text-3xl font-bold mb-4 text-gray-800">Generate Your Tweet Screenshot</h2>
+          <h2 className="text-3xl font-bold mb-4 text-gray-800" id="generate">Generate Your Tweet Screenshot</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Enter a tweet URL or upload an image below to create a beautiful screenshot that you can download and share.
           </p>

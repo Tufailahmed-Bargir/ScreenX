@@ -25,7 +25,7 @@ const ExamplesGallery = () => {
   return (
     <section className="py-16 px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-4">Example Screenshots</h2>
+        <h2 className="text-3xl font-bold text-center mb-4" id="Example">Example Screenshots</h2>
         <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
           Take inspiration from these beautifully designed tweet screenshots
         </p>
