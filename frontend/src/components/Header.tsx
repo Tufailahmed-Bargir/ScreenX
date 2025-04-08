@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -11,17 +12,13 @@ const Header = () => {
       </div>
       
       <div className="flex items-center space-x-4">
-        <a 
-          href="https://github.com" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="text-sm text-muted-foreground hover:text-foreground"
-        >
-          GitHub
-        </a>
+       
+        <Link to={'https://github.com/Tufailahmed-Bargir/ScreenX'} target="_blank">
+        
         <Button size="sm" className="bg-brand-pink hover:bg-brand-pink/90">
-          Sign Up Free
+        GitHub
         </Button>
+        </Link>
       </div>
     </header>
   );

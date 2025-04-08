@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-
+export const backend_url = 'https://lexi-backend-production-f1da.up.railway.app'
 const useTweetScreenshot = () => {
   const [loading, setLoading] = useState(false);
   const [imageUrl, setImageUrl] = useState(null);
@@ -11,7 +11,7 @@ const useTweetScreenshot = () => {
     setError(null);
     setImageUrl(null);
 
-    const backend_url = 'https://lexi-backend-production-f1da.up.railway.app'
+    
     try {
       const res = await axios.post(`${backend_url}/generate-screenshot`, {
         url: tweetUrl,

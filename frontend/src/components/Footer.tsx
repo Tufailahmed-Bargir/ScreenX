@@ -53,13 +53,12 @@ const Footer = () => {
             &copy; {currentYear} Tweet Screenshot Generator. All rights reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="#" className="text-gray-600 hover:text-gray-900">
+            <a href="https://twitter.com/intent/follow?screen_name=TufailDev"
+            target="_blank" className="text-gray-600 hover:text-gray-900">
               Twitter
             </a>
-            <a href="#" className="text-gray-600 hover:text-gray-900">
-              Instagram
-            </a>
-            <a href="#" className="text-gray-600 hover:text-gray-900">
+           
+            <a href="https://github.com/Tufailahmed-Bargir/ScreenX" className="text-gray-600 hover:text-gray-900">
               GitHub
             </a>
           </div>

@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { backend_url } from "@/hooks/generate";
 
 const ExamplesGallery = () => {
   const categories = ["All", "Professional", "Colorful", "Minimal"];
@@ -55,7 +56,7 @@ const ExamplesGallery = () => {
                       style={{ backgroundColor: example.bgColor }}
                     >
                       <img 
-                        src={'http://localhost:3000/tweet_screen/img1.png'} 
+                        src={`${backend_url}/tweet_screen/img10.png`} 
                         alt={`Example ${example.id}`} 
                         className="h-30 w-full  p-2 rounded-3xl "
                       />
